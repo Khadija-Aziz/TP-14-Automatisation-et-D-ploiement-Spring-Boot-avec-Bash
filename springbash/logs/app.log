@@ -1,0 +1,46 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::               (v3.5.12)
+
+2026-03-29T01:32:02.394+01:00  INFO 18140 --- [           main] m.ens.springbash.SpringbashApplication   : Starting SpringbashApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 18140 (C:\Users\PC\Downloads\springbash\springbash\target\springbash-0.0.1-SNAPSHOT.jar started by PC in C:\Users\PC\Downloads\springbash\springbash)
+2026-03-29T01:32:02.402+01:00  INFO 18140 --- [           main] m.ens.springbash.SpringbashApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-03-29T01:32:05.072+01:00  INFO 18140 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-29T01:32:05.134+01:00  INFO 18140 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 0 JPA repository interfaces.
+2026-03-29T01:32:06.601+01:00  INFO 18140 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2026-03-29T01:32:06.629+01:00  INFO 18140 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-29T01:32:06.630+01:00  INFO 18140 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-29T01:32:06.735+01:00  INFO 18140 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-29T01:32:06.738+01:00  INFO 18140 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4189 ms
+2026-03-29T01:32:07.381+01:00  INFO 18140 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-29T01:32:07.515+01:00  INFO 18140 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.44.Final
+2026-03-29T01:32:07.649+01:00  INFO 18140 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-29T01:32:08.287+01:00  INFO 18140 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-29T01:32:08.384+01:00  INFO 18140 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-29T01:32:08.780+01:00  INFO 18140 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-03-29T01:32:08.782+01:00  INFO 18140 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-29T01:32:08.871+01:00  INFO 18140 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-29T01:32:09.489+01:00  INFO 18140 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-29T01:32:09.496+01:00  INFO 18140 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-29T01:32:09.581+01:00  WARN 18140 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-29T01:32:10.808+01:00  INFO 18140 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-03-29T01:32:11.031+01:00  INFO 18140 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2026-03-29T01:32:11.067+01:00  INFO 18140 --- [           main] m.ens.springbash.SpringbashApplication   : Started SpringbashApplication in 9.929 seconds (process running for 10.852)
+2026-03-29T01:40:37.546+01:00  INFO 18140 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-29T01:40:37.546+01:00  INFO 18140 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-29T01:40:37.549+01:00  INFO 18140 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-29T04:34:08.916+01:00  WARN 18140 --- [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m59s763ms848µs800ns).
+2026-03-29T08:58:13.350+01:00  WARN 18140 --- [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h4s96ms982µs700ns).
+2026-03-29T12:53:33.561+01:00  WARN 18140 --- [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h55m32s867ms829µs300ns).
