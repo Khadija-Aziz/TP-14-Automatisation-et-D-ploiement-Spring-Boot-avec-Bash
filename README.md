@@ -44,3 +44,13 @@
 ### lancer le script :
 
 <img width="1480" height="317" alt="image" src="https://github.com/user-attachments/assets/c20bf1ad-cd7d-44fd-bf6a-b6887a3fa27c" />
+<img width="752" height="590" alt="image" src="https://github.com/user-attachments/assets/684657a0-1d09-42bb-b4cd-b79b2c452660" />
+
+
+
+# affichage de la page : 
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/466c425b-9cfd-4732-9da5-49b74a22e245" />
+
+
+
+
